@@ -1,4 +1,5 @@
 from django.db import models
+from django.db.models.fields.related import ManyToManyField
 
 class Product(models.Model):
     description = models.CharField(max_length=45)
